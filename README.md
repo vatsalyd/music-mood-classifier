@@ -15,18 +15,18 @@ This project is a simple Machine Learning app that predicts the **mood** of an a
 
 ## 📂 Project Structure
 
--music_mood_classifier/
--├── models/
--│ └── music_mood_classifier.pkl # Saved trained model
--├── data/
--│ ├── raw/ # Raw audio files (optional, often ignored in Git)
--│ ├── features/ # Extracted features CSVs
--│ ├── labels/ # Labels CSVs
--├── app.py # Streamlit web app
--├── predict.py # Standalone prediction script
--├── requirements.txt # Dependencies
--├── README.md # Project readme
--└── .gitignore # Files/folders to ignore in Git
+- music_mood_classifier/
+- ├── models/
+- │ └── music_mood_classifier.pkl # Saved trained model
+- ├── data/
+- │ ├── raw/ # Raw audio files (optional, often ignored in Git)
+- │ ├── features/ # Extracted features CSVs
+- │ ├── labels/ # Labels CSVs
+- ├── app.py # Streamlit web app
+- ├── predict.py # Standalone prediction script
+- ├── requirements.txt # Dependencies
+- ├── README.md # Project readme
+- └── .gitignore # Files/folders to ignore in Git
 
 
 
@@ -37,7 +37,7 @@ This project is a simple Machine Learning app that predicts the **mood** of an a
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/YourUsername/music-mood-classifier.git
+git clone https://github.com/vatsalyd/music-mood-classifier.git
 cd music-mood-classifier
 ```
 
@@ -74,13 +74,13 @@ e.g. python predict.py test_song.wav
 
 
 # ⚙️ Training Details
--Features: Tempo, spectral centroid, chroma STFT, zero crossing rate, MFCCs.
--Model: Random Forest Classifier.
--Labels: Custom mood categories (happy, sad, romantic, dramatic, angry, etc.)
+- Features: Tempo, spectral centroid, chroma STFT, zero crossing rate, MFCCs.
+- Model: Random Forest Classifier.
+- Labels: Custom mood categories (happy, sad, romantic, dramatic, angry, etc.)
 
 
 
 # 🙌 Credits
--Developed by Vatsal.
--Powered by open-source Python libraries: scikit-learn, librosa, Streamlit.
+- Developed by Vatsal.
+- Powered by open-source Python libraries: scikit-learn, librosa, Streamlit.
 
