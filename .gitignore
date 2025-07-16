@@ -1,0 +1,23 @@
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore large raw audio files (if you don’t want them in Git)
+data/raw/
+*.wav
+*.mp3
+
+# Ignore Jupyter notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore temp files
+*.tmp
+*.log
