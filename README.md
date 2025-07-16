@@ -1,3 +1,7 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+
+
 # 🎵 Music Mood Classifier
 
 This project is a simple Machine Learning app that predicts the **mood** of an audio file based on extracted audio features. It’s built with **Python**, **scikit-learn**, **librosa**, and deployed as a **Streamlit web app**.
@@ -92,8 +96,5 @@ e.g. python predict.py test_song.wav
 - Developed by VATSAL.
 - Powered by open-source Python libraries: scikit-learn, librosa, Streamlit.
 
-
-![Python](https://img.shields.io/badge/python-3.10+-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 
