@@ -75,6 +75,7 @@ streamlit run app.py
 python predict.py path/to/your/audiofile.wav
 ```
 e.g. python predict.py test_song.wav
+
 ![alt text](images/Screenshot2.png)
 
 
