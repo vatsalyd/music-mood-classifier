@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ```python
 streamlit run app.py
 ```
-![alt text](<images/Screenshot 2025-07-16 204541.png>)
+![alt text](<images/Screenshot1.png>)
 
 
 ### Use the Command-Line Predictor
@@ -70,7 +70,7 @@ streamlit run app.py
 python predict.py path/to/your/audiofile.wav
 ```
 e.g. python predict.py test_song.wav
-![alt text](<images/Screenshot 2025-07-16 205155.png>)
+![alt text](images/Screenshot2.png)
 
 
 # ⚙️ Training Details
