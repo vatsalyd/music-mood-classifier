@@ -15,19 +15,20 @@ This project is a simple Machine Learning app that predicts the **mood** of an a
 
 ## 📂 Project Structure
 
-- music_mood_classifier/
-- ├── models/
-- │ └── music_mood_classifier.pkl # Saved trained model
-- ├── data/
-- │ ├── raw/ # Raw audio files (optional, often ignored in Git)
-- │ ├── features/ # Extracted features CSVs
-- │ ├── labels/ # Labels CSVs
-- ├── app.py # Streamlit web app
-- ├── predict.py # Standalone prediction script
-- ├── requirements.txt # Dependencies
-- ├── README.md # Project readme
-- └── .gitignore # Files/folders to ignore in Git
-
+```text
+music_mood_classifier/
+├── models/
+│ └── music_mood_classifier.pkl # Saved trained model
+├── data/
+│ ├── raw/ # Raw audio files (optional, often ignored in Git)
+│ ├── features/ # Extracted features CSVs
+│ ├── labels/ # Labels CSVs
+├── app.py # Streamlit web app
+├── predict.py # Standalone prediction script
+├── requirements.txt # Dependencies
+├── README.md # Project readme
+└── .gitignore # Files/folders to ignore in Git
+```
 
 
 ---
@@ -42,6 +43,7 @@ cd music-mood-classifier
 ```
 
 ### Create a virtual environment
+
 Windows
 ```python
 python -m venv venv
@@ -54,11 +56,13 @@ source venv/bin/activate
 ```
 
 ### Install dependencies
+
 ```python
 pip install -r requirements.txt
 ```
 
 ### Run the streamlit app
+
 ```python
 streamlit run app.py
 ```
@@ -66,6 +70,7 @@ streamlit run app.py
 
 
 ### Use the Command-Line Predictor
+
 ```pyhton 
 python predict.py path/to/your/audiofile.wav
 ```
@@ -74,6 +79,7 @@ e.g. python predict.py test_song.wav
 
 
 # ⚙️ Training Details
+
 - Features: Tempo, spectral centroid, chroma STFT, zero crossing rate, MFCCs.
 - Model: Random Forest Classifier.
 - Labels: Custom mood categories (happy, sad, romantic, dramatic, angry, etc.)
@@ -81,6 +87,12 @@ e.g. python predict.py test_song.wav
 
 
 # 🙌 Credits
-- Developed by Vatsal.
+
+- Developed by VATSAL.
 - Powered by open-source Python libraries: scikit-learn, librosa, Streamlit.
+
+
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 
