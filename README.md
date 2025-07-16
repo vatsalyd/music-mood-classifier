@@ -14,7 +14,7 @@ This project is a simple Machine Learning app that predicts the **mood** of an a
 ---
 
 ## 📂 Project Structure
-
+```
 music_mood_classifier/
 ├── models/
 │ └── music_mood_classifier.pkl # Saved trained model
@@ -27,7 +27,7 @@ music_mood_classifier/
 ├── requirements.txt # Dependencies
 ├── README.md # Project readme
 └── .gitignore # Files/folders to ignore in Git
-
+```
 
 
 ---
@@ -39,42 +39,48 @@ music_mood_classifier/
 ```bash
 git clone https://github.com/YourUsername/music-mood-classifier.git
 cd music-mood-classifier
+```
 
-
-###Create a virtual environment
-# Windows
+### Create a virtual environment
+Windows
+```python
 python -m venv venv
 .\venv\Scripts\activate
-# macOS/Linux
+```
+macOS/Linux
+```python
 python3 -m venv venv
 source venv/bin/activate
+```
 
-
-#Install dependencies
+### Install dependencies
+```python
 pip install -r requirements.txt
+```
 
-
-###Run the streamlit app
+### Run the streamlit app
+```python
 streamlit run app.py
-
+```
 ![alt text](<images/Screenshot 2025-07-16 204541.png>)
 
 
 ### Use the Command-Line Predictor
+```pyhton 
 python predict.py path/to/your/audiofile.wav
-#### e.g. python predict.py test_song.wav
+```
+e.g. python predict.py test_song.wav
 
-images/Screenshot 2025-07-16 205155.png
 
 
-⚙️ Training Details
+# ⚙️ Training Details
 Features: Tempo, spectral centroid, chroma STFT, zero crossing rate, MFCCs.
 Model: Random Forest Classifier.
 Labels: Custom mood categories (happy, sad, romantic, dramatic, angry, etc.)
 
 
 
-🙌 Credits
+# 🙌 Credits
 Developed by Vatsal.
 Powered by open-source Python libraries: scikit-learn, librosa, Streamlit.
 
